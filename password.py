@@ -1,8 +1,11 @@
-user_input=input("Enter your password:\n")
-password="hello"
-while user_input != password:
-    print("Incorrect password")
-    user_input=input("Enter your password:\n")
-
-if password == "hello":
-    print("Unlocked")
+def main():
+    password()
+def password():
+    user_input="Enter password\n"
+    p="helo"
+    while user_input!=p:
+        user_input=input("Enter password\n")
+        print("Incorrect password")
+    if user_input==p:
+        print("Unlocked")
+main()
